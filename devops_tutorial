@@ -13,3 +13,5 @@ git reset --mixed HEAD~1 //for reset but keep in working area
 git reset --hard HEAD~1 //for reset but remove from working area
 git branch second //create new branch
 git checkout second //switch to second branch->git merge second
+git commit --amend //for saving existing commit again
+git commit --amend -m "new message of existing commit"
